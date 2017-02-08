@@ -20,19 +20,20 @@ public class VolatileExample2 {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        final VolatileExample2 volatileExample2 = new VolatileExample2();
-
-        Thread t1 = new Thread(new Runnable() {
-            public void run() {
-                volatileExample2.read();
-            }
-        });
-        Thread t2 = new Thread(new Runnable() {
-            public void run() {
-                volatileExample2.writ();
-            }
-        });
-        t2.start();
-        t1.start();
+//        final VolatileExample2 volatileExample2 = new VolatileExample2();
+//
+//        Thread t1 = new Thread(new Runnable() {
+//            public void run() {
+//                volatileExample2.read();
+//            }
+//        });
+//        Thread t2 = new Thread(new Runnable() {
+//            public void run() {
+//                volatileExample2.writ();
+//            }
+//        });
+//        t2.start();
+//        t1.start();
+        System.out.println( ( (double)8000/10000*12));
     }
 }
