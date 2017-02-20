@@ -25,4 +25,5 @@ public class Profiler {
         TimeUnit.SECONDS.sleep(1);
         System.out.println(" Cast " + Profiler.end() + " mills ");
     }
+
 }
